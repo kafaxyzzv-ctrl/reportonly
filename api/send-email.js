@@ -17,7 +17,7 @@ module.exports = async (req, res) => {
     const { apiKey, sender, password, target, subject, body } = req.body;
 
     // Set API Key rahasia kamu sendiri di sini
-    if (apiKey !== 'rich01') {
+    if (apiKey !== 'kvzlyxgmail') {
         return res.status(401).json({ success: false, message: 'API Key Invalid' });
     }
 
